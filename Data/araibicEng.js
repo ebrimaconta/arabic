@@ -74,6 +74,18 @@ const arabicEng = [
   { arabic: 'ويحملون', english: 'And they carry' },
   { arabic: 'فريق ', english: 'team' },
   { arabic: 'أيام', english: 'days' },
+  { arabic: 'يمارسون ', english: 'are practicing' },
+  { arabic: 'السباحة ', english: 'swimming' },
+  { arabic: 'أنواع ', english: 'types' },
+  { arabic: 'الأخرى ', english: 'other' },
+  { arabic: 'ويصطادون  ', english: 'they hunt' },
+  { arabic: 'الطُيور', english: 'birds' },
+  { arabic: 'يحمل ', english: 'carry' },
+  { arabic: 'يعدون ', english: 'prepared' },
+  { arabic: 'ملايس ', english: 'land' },
+  { arabic: 'خياما ', english: 'tents' },
+  { arabic: 'بيوتهم ', english: 'their homes' },
+  { arabic: ' يضعونه ', english: 'put it' },
 ]
 
 export default arabicEng
