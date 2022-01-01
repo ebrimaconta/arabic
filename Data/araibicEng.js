@@ -97,7 +97,11 @@ const arabicEng = [
   { arabic: ' يدفعة  ', english: 'push' },
   { arabic: ' يتصدق  ', english: 'give alms' },
   { arabic: ' الأنشطة   ', english: 'activity' },
-  { arabic: ' الأنشطة   ', english: 'activity' },
+  { arabic: ' إباحة    ', english: 'permissibility' },
+  { arabic: ' الترويح', english: 'recreation' },
+  { arabic: ' مصانع  ', english: 'factory' },
+  { arabic: ' الملابس ', english: 'clothes' },
+  { arabic: ' مصانع ', english: 'recreation' },
 ]
 
 export default arabicEng

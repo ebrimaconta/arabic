@@ -19,3 +19,8 @@
  .hide {
      display: none;
  }
+ 
+ .upper-box {
+     display: flex;
+     gap: 20px;
+ }
