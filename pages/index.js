@@ -3,11 +3,11 @@ import arabicEng from '../Data/araibicEng'
 import ReactTooltip from 'react-tooltip'
 export default function Home() {
   const [toggle, setToggle] = useState(true)
-  const [hide, setHide] = useState([{ index: '' }])
+  const [hide, setHide] = useState([])
 
   useEffect(() => {}, [])
-  const getAllValues = Object.values(hide[0])
-  console.log(getAllValues)
+
+  console.log(hide)
   return (
     <>
       <button onClick={() => setToggle(!toggle)}>
@@ -17,8 +17,8 @@ export default function Home() {
         {arabicEng.map((word, index) => {
           return (
             <div
-              onClick={() => setHide((passHide) => [{ index: index }])}
-              className={`box  ${getAllValues.includes(index) ? 'hide' : ''}`}
+              onClick={() => setHide((passHide) => [...passHide, index])}
+              className={`box  ${hide.includes(index) ? 'hide' : ''}`}
               key={word.english + index}
             >
               <div

@@ -86,6 +86,18 @@ const arabicEng = [
   { arabic: 'خياما ', english: 'tents' },
   { arabic: 'بيوتهم ', english: 'their homes' },
   { arabic: ' يضعونه ', english: 'put it' },
+  { arabic: ' إعداد  ', english: 'prepare' },
+  { arabic: ' إذا   ', english: 'if' },
+  { arabic: ' السأم    ', english: 'bored' },
+  { arabic: ' ويدخلها  ', english: 'enter it' },
+  { arabic: ' تعاليم   ', english: 'teachings' },
+  { arabic: ' لهذا   ', english: 'For this' },
+  { arabic: ' تجيز    ', english: 'authorize' },
+  { arabic: ' لآخر  ', english: 'the last' },
+  { arabic: ' يدفعة  ', english: 'push' },
+  { arabic: ' يتصدق  ', english: 'give alms' },
+  { arabic: ' الأنشطة   ', english: 'activity' },
+  { arabic: ' الأنشطة   ', english: 'activity' },
 ]
 
 export default arabicEng
